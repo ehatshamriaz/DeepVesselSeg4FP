@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Root directory to dataset 
-DATA_PATH='../data/datasets/sample_images_from_PRIME-FP20'
+DATA_PATH='/content/drive/MyDrive/DeepVesselSeg4FP/data/datasets/PRIME-FP20'
 
 # Directory to pretrained model
 PRETRAINED_DIR='/content/drive/MyDrive/DeepVesselSeg4FP/pretrained_models'
