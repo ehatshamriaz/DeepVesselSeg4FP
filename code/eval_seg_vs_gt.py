@@ -86,7 +86,7 @@ y_scores = np.hstack(outputs)
 
 # precision recall
 precision,recall,th_prrc = precision_recall_curve(y_true,y_scores,pos_label=1)
-prrc_auc = auc(recall,precision,True)
+prrc_auc = auc(recall,precision)
 print('PRRC AUC: {:.4f}'.format(prrc_auc))
 
 # dice coefficient
