@@ -8,7 +8,7 @@ SAVE_DIR='../results'
 
 
 # If you download the full PRIME-FP20 dataset and place them in the datasets folder, you can run the evaluation for all images from the PRIME-FP20 dataset. To do so, uncomment the next two lines to set the DATA_PATH and SAVE_DIR 
-#DATA_PATH='../data/datasets/PRIME-FP20'
-#SAVE_DIR='../data/pretrained_results'
+DATA_PATH='/content/drive/MyDrive/DeepVesselSeg4FP/data/datasets/PRIME-FP20'
+SAVE_DIR='/content/drive/MyDrive/DeepVesselSeg4FP/data/pretrained_results'
 #
 python eval_seg_vs_gt.py -d ${DATA_PATH}  -s ${SAVE_DIR} 
