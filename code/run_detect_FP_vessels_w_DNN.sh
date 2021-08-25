@@ -4,7 +4,7 @@
 DATA_PATH='../data/datasets/sample_images_from_PRIME-FP20'
 
 # Directory to pretrained model
-PRETRAINED_DIR='../data/pretrained_models/'
+PRETRAINED_DIR='/content/drive/MyDrive/DeepVesselSeg4FP/pretrained_models'
 PRETRAINED_ID=4
 
 # Directory to results folder. Automatically generated if it doesn't exist
